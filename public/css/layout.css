@@ -94,6 +94,7 @@ header .banner-text {
     padding: 20px 0px;
     transition: transform 0.2 ease-in-out;
     animation: wobble 5s infinite;
+    animation-delay: 0.1s;
 }
 
 @keyframes wobble {
