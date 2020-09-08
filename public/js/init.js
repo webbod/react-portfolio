@@ -90,7 +90,7 @@
          if (y < h*.20) {
             nav.removeClass('opaque').fadeIn('fast');
          }
-         else {
+         else {;
             nav.addClass('opaque').fadeIn('fast');
          }
       }
