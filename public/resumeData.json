@@ -2,21 +2,24 @@
     "main": {
         "firstName": "Graeme",
         "lastName": "Mulvaney",
-        "occupation": "Software Engineer & Scrum Master",
-        "description": "Full-time techie, weekend sports coach and linguist by night",
+        "occupation": "Freelance Software Engineer",
+        "description": "I help people solve problems and get cool stuff done",
         "image": "Graeme.jpg",
-        "bio": "My name is Sonny, I'm a Full Stack ReactJS Developer. Currently I'm working at Clever Programmer while also coaching ",
-        "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
-        "email": "sonny@cleverprogrammer.com",
-        "phone": "+44 12 345 6789",
+        "bio": "I am an enthusiastic and agile tech lead. I like to spend time liaising with stakeholders nailing requirements, facilitating delivery and coaching mixed ability teams. I enjoy learning new languages and have a lot of experience working on multilingual projects.",
+        "contactmessage": "I like a bit of complexity, gimme a shout if you need help with anything.",
+        "email": "web.bod@gmail.com",
+        "phone": "+44 7426 564 247",
         "address": {
-            "street": "123 Fake Street",
-            "city": "Coventry",
-            "state": "UK",
-            "zip": "ABC 123"
+            "city": "Coventry"
+        },
+        "locations": {
+            "first": "Midlands",
+            "second": "London",
+            "third": "Manchester",
+            "fourth": "South Wales"
         },
         "website": "http://www.timbakerdev.com",
-        "resumedownload": "http://timbakerdev.com",
+        "resumedownload": "/docs/cv.docx",
         "social": [{
                 "name": "linkedin",
                 "url": "https://www.linkedin.com/in/graeme-mulvaney/",
@@ -35,28 +38,40 @@
         ]
     },
     "resume": {
-        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-        "education": [{
-            "school": "University of Kent",
-            "degree": "Masters in Advanced Computer Science",
-            "graduated": "January 2017",
-            "description": "Graduated with Distinction"
-        }],
+        "workmessage": "I do a lot of contract and freelance work, the recent stuff is still subject to NDAs. I have a lot more information in my CV, but this should give you an idea of my 'range'.",
+        "skillmessage": "These are the main 'technologies' that I use, but I try to be pretty agnostic about it, I am more concerned about the sustainability of the solution and what's best for the team.",
+        "languages": ["English", "Irish", "French", "Spanish", "Welsh", "Italian", "Dutch", "German"],
         "work": [{
-                "company": "Clever Programmer",
-                "title": "Team Member && React Specialist",
-                "years": "April 2020 - Present",
-                "description": "Teaching ReactJS to thousands of students."
+                "company": "Sainsburys",
+                "title": "Principal Engineer",
+                "years": "July 2019 - Nov 2019",
+                "description": "Microservices architecture, Xamarin app development, performance coaching."
             },
             {
-                "company": "Lindar Media",
-                "title": "Software Engineer",
-                "years": "Nov 2019 - April 2020",
-                "description": "Building MrQ, a gambling website."
+                "company": "NEC Group",
+                "title": "Umbraco Consultant",
+                "years": "May 2019 - June 2019",
+                "description": "CMS driven e-commerce site with integrated ticketing and booking."
+            },
+            {
+                "company": "ITG Connect",
+                "title": "Umbraco Consultant",
+                "years": "January 2019 - April 2019",
+                "description": "Multilingual CMS deployment, back-end optimisation, Umbraco coaching"
+            },
+            {
+                "company": "AHDB",
+                "title": "Tech Lead",
+                "years": "January 2018 - November 2018",
+                "description": "Identity management and GDPR, Software architecture, performance coaching"
             }
         ],
         "skills": [{
-                "name": "ReactJs",
+                "name": "JavaScript",
+                "level": "95%"
+            },
+            {
+                "name": "HTML",
                 "level": "100%"
             },
             {
@@ -64,20 +79,32 @@
                 "level": "95%"
             },
             {
-                "name": "Git",
-                "level": "60%"
+                "name": "React",
+                "level": "85%"
             },
             {
-                "name": "Figma && Adobe XD",
+                "name": "C#",
+                "level": "95%"
+            },
+            {
+                "name": ".net",
+                "level": "95%"
+            },
+            {
+                "name": "SQL",
+                "level": "95%"
+            },
+            {
+                "name": "Umbraco",
+                "level": "80%"
+            },
+            {
+                "name": "Adobe Suite",
+                "level": "75%"
+            },
+            {
+                "name": "Azure",
                 "level": "55%"
-            },
-            {
-                "name": "HTML5",
-                "level": "80%"
-            },
-            {
-                "name": "MongoDB",
-                "level": "80%"
             }
         ]
     },
@@ -116,12 +143,16 @@
     },
     "testimonials": {
         "testimonials": [{
-                "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-                "user": "Kareem Abdul Jabbar"
+                "text": "You won't find many people willing to learn another language just to take pressure off the translator.",
+                "user": "AHDB"
             },
             {
-                "text": "That Sonny Sangha must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-                "user": "Steve Wozniak... impersonator"
+                "text": "I'm not sure how he managed to get it working in Arabic and Hebrew over the weekend, but :D :D :D",
+                "user": "Hyperion Group"
+            },
+            {
+                "text": "Graeme is pretty unique.",
+                "user": "Sainsburys"
             }
         ]
     }

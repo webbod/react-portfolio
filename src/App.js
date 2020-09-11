@@ -49,6 +49,31 @@ class App extends Component {
         <Testimonials data={this.state.resumeData.testimonials}/>
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+               <filter id="squiggly-0">
+                  <feTurbulence baseFrequency="0.01" numOctaves="1" result="noise" seed="0"/>
+                  <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" />
+               </filter>
+               <filter id="squiggly-1">
+                  <feTurbulence baseFrequency="0.01" numOctaves="1" result="noise" seed="1"/>
+                  <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" />
+               </filter>
+               <filter id="squiggly-2">
+                  <feTurbulence baseFrequency="0.01" numOctaves="1" result="noise" seed="2"/>
+                  <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" />
+               </filter>
+               <filter id="squiggly-3">
+                  <feTurbulence baseFrequency="0.01" numOctaves="1" result="noise" seed="3"/>
+                  <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" />
+               </filter>
+               
+               <filter id="squiggly-4">
+                  <feTurbulence  baseFrequency="0.01" numOctaves="1" result="noise" seed="4"/>
+                  <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" />
+               </filter>
+            </defs> 
+         </svg>
       </div>
     );
   }

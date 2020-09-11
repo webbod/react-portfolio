@@ -22,6 +22,9 @@ class Header extends Component {
          <div className="header__background">
             <img src={background} className="pixelated" alt=""/>
          </div>
+         <div className="header__background overlay">
+            <img src={background} className="pixelated" alt="" className="squiggly"/>
+         </div>
 
          <nav id="nav-wrap">
 
@@ -41,7 +44,7 @@ class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">Hey! I'm {name}.</h1>
+               <h1 className="responsive-headline">Hey! I'm {name}</h1>
                <h3>A <span>{occupation}</span> from {city}.<br/>{description}.</h3>
                <hr />
                <ul className="social">

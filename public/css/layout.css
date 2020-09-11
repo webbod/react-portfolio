@@ -67,13 +67,18 @@ header:before {
     bottom: 0;
     left: 0;
     overflow: hidden;
-    background: #161415;
+    background: transparent;
     z-index: -1;
 }
 
+.header__background.overlay {
+    clip-path: polygon(0% 76%, 0% 87%, 100% 76%, 100% 87%);
+    overflow: hidden;
+}
+
 .header__background img {
-    height: 100%;
-    min-width: 100vw;
+    height: 100vh;
+    min-width: calc(2.1653 * 100vh);
 }
 
 header .banner {
@@ -225,6 +230,32 @@ header .scrolldown a:hover {
     color: #11ABB0;
 }
 
+.squiggly {
+    animation: squiggly-anim 1s linear infinite;
+    filter: url("#squiggly-0");
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    line-height: 1;
+}
+
+@keyframes squiggly-anim {
+    0% {
+        filter: url("#squiggly-0");
+    }
+    33% {
+        filter: url("#squiggly-1");
+    }
+    66% {
+        filter: url("#squiggly-2");
+    }
+    100% {
+        filter: url("#squiggly-0");
+    }
+}
+
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -358,6 +389,38 @@ ul#nav li.current a {
     color: #7A7A7A;
 }
 
+#about .sticker {
+    display: inline-block;
+    color: #000;
+    background-color: #fff;
+    border: #111 4px solid;
+    font-weight: bold;
+    font-family: opensans-bold;
+    font-size: 1.3em;
+    padding: 1px 5px;
+    border-radius: 5px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    position: absolute;
+    transform: rotate(-19deg);
+    bottom: -2px;
+    left: 60px;
+    box-shadow: 0 0 4px 2px black;
+}
+
+#about .sticker abbr {
+    text-transform: uppercase;
+    color: #000;
+}
+
+#about .heart {
+    color: red;
+}
+
+#about .profile-pic-block {
+    position: relative;
+}
+
 #about .profile-pic {
     position: relative;
     width: 120px;
@@ -463,6 +526,11 @@ ul#nav li.current a {
 #resume .date {
     font: 15px/24px 'opensans-regular', sans-serif;
     margin-top: 6px;
+}
+
+#resume ul.languages li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
 
