@@ -61,7 +61,7 @@ header:before {
 
 .header__background {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -72,7 +72,8 @@ header:before {
 }
 
 .header__background.overlay {
-    clip-path: polygon(0% 76%, 0% 87%, 100% 76%, 100% 87%);
+    position: fixed;
+    clip-path: polygon(0% 79%, 0% 85%, 100% 85%, 100% 79%);
     overflow: hidden;
 }
 
