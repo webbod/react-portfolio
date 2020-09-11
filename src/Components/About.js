@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 class About extends Component {
   render() {
@@ -8,10 +7,6 @@ class About extends Component {
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
-      var first = this.props.data.locations.first;
-      var second = this.props.data.locations.second;
-      var third = this.props.data.locations.third;
-      var fourth = this.props.data.locations.fourth;
       var formattedPhone = this.props.data.phone;
       var phone = formattedPhone.replace(/ /g, "");
       var email = this.props.data.email;

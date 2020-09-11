@@ -23,7 +23,7 @@ class Header extends Component {
             <img src={background} className="pixelated" alt=""/>
          </div>
          <div className="header__background overlay">
-            <img src={background} className="pixelated" alt="" className="squiggly"/>
+            <img src={background} className="pixelated squiqqly" alt=""/>
          </div>
 
          <nav id="nav-wrap">
