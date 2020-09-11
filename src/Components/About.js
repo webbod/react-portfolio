@@ -4,7 +4,6 @@ class About extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
       var formattedPhone = this.props.data.phone;
@@ -18,8 +17,8 @@ class About extends Component {
       <div className="row">
          <div className="three columns profile-pic-block">
             <img className="profile-pic"  src={profilepic} alt={`{name} profile pic`} />
-            <div class="sticker">
-               I <span role='img' aria-label='love' class='heart'>♥️</span> <abbr title="Internationalisation">I18N</abbr>
+            <div className="sticker">
+               I <span role='img' aria-label='love' className='heart'>♥️</span> <abbr title="Internationalisation">I18N</abbr>
             </div>
          </div>
          <div className="nine columns main-col">
@@ -30,8 +29,8 @@ class About extends Component {
                <div className="columns contact-details">
                   <h2>Contacts</h2>
                   <p className="address">
-						   <span><a href={`tel:${phone}`} itemprop="telephone">{formattedPhone}</a></span><br />
-                     <span><a href={`mailto:${email}`} itemprop="email">{email}</a></span>
+						   <span><a href={`tel:${phone}`} itemProp="telephone">{formattedPhone}</a></span><br />
+                     <span><a href={`mailto:${email}`} itemProp="email">{email}</a></span>
 					   </p>
                </div>
                <div className="columns download">
