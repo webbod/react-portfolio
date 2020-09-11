@@ -120,3 +120,6 @@ public/images/day/wholeday/day_0087_4.gif
 public/images/day/wholeday/day_0088_3.gif
 public/images/day/wholeday/day_0089_2.gif
 public/images/day/wholeday/day_0090_1.gif
+
+# Local Netlify folder
+.netlify
